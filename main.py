@@ -1,7 +1,7 @@
 import os
+from langchain_google_genai import ChatGoogleGenerativeAI
 from fastapi import FastAPI
 from pydantic import BaseModel
-from langchain_google_genai import ChatGoogleGenerativeAI
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
