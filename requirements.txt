@@ -1,0 +1,6 @@
+fastapi
+pydantic
+langchain-google-genai
+uvicorn
+nest-asyncio
+fastapi[all]
